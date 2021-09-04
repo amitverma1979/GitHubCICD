@@ -13,6 +13,7 @@ LOGGER.setLevel(logging.INFO)
 def returnBackwardsString(random_string):
     """Reverse and return the provided URI"""
     LOGGER.info('Received a message: %s', random_string)
+    LOGGER.info('Hello How are pdb')
     return "".join(reversed(random_string))
 
 if __name__ == '__main__':
